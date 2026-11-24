@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    color: blue;
+}
+
+.total-box {
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.expense-form, .expense-list-section {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 95%;
+    padding: 8px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+#emptyMessage {
+    text-align: center;
+    color: gray;
+}
